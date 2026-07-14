@@ -1,0 +1,73 @@
+site_name: Scene Doctor
+site_description: One-click scene diagnosis and cleanup for Blender.
+site_author: Red Engine Animation Studios
+# Set these to your GitHub Pages URL and repo before deploying:
+site_url: https://YOURNAME.github.io/scene-doctor/
+repo_url: https://github.com/YOURNAME/scene-doctor
+repo_name: scene-doctor
+copyright: Copyright &copy; 2026 Red Engine Animation Studios
+
+theme:
+  name: material
+  palette:
+    - media: "(prefers-color-scheme: dark)"
+      scheme: slate
+      primary: red
+      accent: red
+      toggle:
+        icon: material/weather-night
+        name: Switch to light mode
+    - media: "(prefers-color-scheme: light)"
+      scheme: default
+      primary: red
+      accent: red
+      toggle:
+        icon: material/weather-sunny
+        name: Switch to dark mode
+  features:
+    - navigation.instant
+    - navigation.tracking
+    - navigation.sections
+    - navigation.top
+    - toc.follow
+    - search.suggest
+    - search.highlight
+    - content.code.copy
+  icon:
+    logo: material/stethoscope
+
+markdown_extensions:
+  - admonition
+  - attr_list
+  - md_in_html
+  - toc:
+      permalink: true
+  - pymdownx.highlight
+  - pymdownx.superfences
+  - pymdownx.details
+  - pymdownx.tabbed:
+      alternate_style: true
+  - tables
+
+plugins:
+  - search
+
+extra:
+  version:
+    provider: mike
+
+nav:
+  - Home: index.md
+  - Getting Started:
+      - Installation: installation.md
+      - Quick Start: quick-start.md
+      - Lite vs Pro: tiers.md
+  - Using Scene Doctor:
+      - The Panel: interface.md
+      - Health Score: health-score.md
+      - Checks: checks.md
+      - Profiles: profiles.md
+      - Tools & Fixes: tools.md
+  - Help:
+      - FAQ: faq.md
+      - Changelog: changelog.md
