@@ -18,9 +18,6 @@ mkdocs serve            # http://127.0.0.1:8000
 4. Push to `main`/`master`. The `.github/workflows/docs.yml` workflow
    builds and publishes to GitHub Pages.
 
-The workflow uses `mike`, so the published URL is versioned like
-`https://YOURNAME.github.io/scene-doctor/latest/checks/#flipped-normals`.
-
 ## Manual deploy
 
 ```bash
