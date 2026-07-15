@@ -71,3 +71,6 @@ nav:
   - Help:
       - FAQ: faq.md
       - Changelog: changelog.md
+
+extra_css:
+  - assets/extra.css
