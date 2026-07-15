@@ -1,6 +1,10 @@
-/* Dark header, ~10% darker than the slate page background (#21222c). */
-:root {
+/* Custom primary (header) — ~10% darker than the slate page bg (#21222c).
+   palette.primary is "custom", so these win over Material's defaults. */
+:root,
+[data-md-color-primary="custom"] {
   --md-primary-fg-color:        #1d1e27;
   --md-primary-fg-color--light: #1d1e27;
   --md-primary-fg-color--dark:  #16171e;
+  --md-primary-bg-color:        #ffffff;
+  --md-primary-bg-color--light: rgba(255, 255, 255, 0.7);
 }
