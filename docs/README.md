@@ -1,7 +1,6 @@
 # Scene Doctor docs (MkDocs site)
 
-The Scene Doctor manual, built with **MkDocs Material** and versioned with
-**mike**.
+The Scene Doctor manual.
 
 ## Preview locally
 
