@@ -2,9 +2,9 @@ site_name: Scene Doctor
 site_description: One-click scene diagnosis and cleanup for Blender.
 site_author: Red Engine Animation Studios
 # Set these to your GitHub Pages URL and repo before deploying:
-site_url: https://kfisher920.github.io/scene-doctor/
-repo_url: https://github.com/kfisher920/scene-doctor
-repo_name: kfisher920/scene-doctor
+site_url: https://redengineanimation.github.io/scene-doctor/
+repo_url: https://github.com/redengineanimation/scene-doctor
+repo_name: redengineanimation/scene-doctor
 copyright: Copyright &copy; 2026 Red Engine Animation Studios
 
 theme:

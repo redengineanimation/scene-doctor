@@ -1,7 +1,7 @@
 # Scene Doctor docs (MkDocs site)
 
 The Scene Doctor manual, built with **MkDocs Material** and versioned with
-**mike** — the same stack as most Blender add-on manuals (Zen UV, etc.).
+**mike**.
 
 ## Preview locally
 
