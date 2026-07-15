@@ -1,0 +1,6 @@
+/* Dark header, ~10% darker than the slate page background (#21222c). */
+:root {
+  --md-primary-fg-color:        #1d1e27;
+  --md-primary-fg-color--light: #1d1e27;
+  --md-primary-fg-color--dark:  #16171e;
+}
